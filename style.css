@@ -1,9 +1,4 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: "Segoe UI", sans-serif;
   background-color: #f6f8ff;
@@ -42,17 +37,16 @@ body {
   color: white;
   padding: 12px 30px;
   border: none;
-  border-radius: 12px;
+  border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   font-weight: 500;
-    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
-  box-shadow: 0 4px 10px rgba(74, 85, 255, 0.2);
+    transition: background-color 0.3s ease, transform 0.0s ease, color 0.3s ease;
 }
 .btn:hover {
-  background-color: #FFD700;
+  background-color:#dfc42c ;
   color: #000;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 .action {
   display: flex;
@@ -69,18 +63,17 @@ body {
 }
 .action img {
   max-width: 300px;
-  border-radius: 12px;
+  border-radius: 15px;
 }
 
 .stats {
   background-color: #e6e9ff;
   text-align: center;
   padding: 50px 20px;
-  
   max-width: 1000px;
   margin: 0 auto; 
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 15px;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.05); */
 }
 
 .numbers div h3 {
@@ -112,7 +105,7 @@ body {
   background-color: #f8f9ff;
   text-align: center;
   padding: 60px 20px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .cards {
@@ -161,7 +154,7 @@ body {
 .reviewer img {
   width: 35px;
   height: 35px;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .reviewer .info span {
@@ -177,10 +170,10 @@ body {
   text-align: center;
   padding: 80px 20px;
   background-color:#e6e9ff; 
-  border-radius: 16px;
+  border-radius: 15px;
   max-width: 1000px;
   margin: 80px auto; 
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); */
 }
 
 
@@ -196,16 +189,16 @@ body {
   color: white;
   padding: 12px 26px;
   border: none;
-  border-radius: 16px; 
+  border-radius: 9px; 
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(74, 85, 255, 0.15);
+  /* box-shadow: 0 4px 10px rgba(74, 85, 255, 0.15); */
 }
 
 .cta .btn:hover {
- background-color: #FFD700;
+ background-color:#dfc42c;
   transform: scale(1.05);
 }
 
@@ -232,23 +225,23 @@ body {
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(74, 85, 255, 0.15);
+  /* box-shadow: 0 4px 10px rgba(74, 85, 255, 0.15); */
 }
 
 .cta .btn:hover {
-  background-color: #3a45e5;
+  background-color: #4A55FF;
   transform: scale(1.05);
 }
 
 .cta img {
   max-width: 90%;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); */
 }
 
   max-width: 90%;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); */
 }
 
 
@@ -353,7 +346,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #4A55FF;
+  color: #323edd;
 }
           
 
